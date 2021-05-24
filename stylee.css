@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2? family = Montserrat + Alternates & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+
+
+body img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    
+    
+}
+
+body{
+    background-color: gray;
+    
+    
+}
+
+body p{
+    margin: 50px;
+    font-size: 25px;
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+    
+}

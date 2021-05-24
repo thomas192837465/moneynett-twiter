@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2? family = Montserrat + Alternates & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background: url('image/gris.png');
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+    
+
+
+
+}
+
+nav h1{
+    color: black ;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+    
+    
+    
+
+
+
+}
+
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 200px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    border-bottom: 1px, solid black
+    ;
+    padding-bottom: 5px;
+    text-align: right;
+    
+
+
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('image/bb.png');
+    background-size: cover;
+    padding: 40px;
+
+}
+header h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    text-align: center;
+
+
+}
+
+header h4 {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    
+
+}
+
+
+
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+    
+}
+
+
+
+
+.main .content .card{
+    
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+    
+    
+
+}
+
+.main .content .card .left {
+   
+    padding: 20px;
+    background-color: #2e2d2d;
+    color: blanchedalmond;
+    text-align: center;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
+
+}
+
+
+
+
+button {
+display: inline-block;
+background-color: #7b38d8;
+border-radius: 10px;
+border: 4px double #cccccc;
+color: #eeeeee;
+text-align: center;
+font-size: 28px;
+padding: 20px;
+width: 200px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+text-align: center;
+
+
+
+
+
+
+
+
+}
+button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+button:hover {
+background-color: #f7c2f9;
+}
+button:hover span {
+padding-right: 25px;
+}
+button:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+@media screen and (max-width:680px){
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;
+
+    }
+
+
+  }
